@@ -1,0 +1,13 @@
+.text{
+    font-weight: 50px;
+    font-size: larger;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.button{
+    display: flex;
+    gap:5px;
+}
