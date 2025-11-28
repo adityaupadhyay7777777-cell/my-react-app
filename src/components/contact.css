@@ -9,9 +9,16 @@ form{
     width: 100px;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(18, 1, 1);
+    color: rgb(28, 3, 3);
     padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
+#submit:hover{
+    background-color:rgb(110, 14, 110);
+    transition: 0.2s;
+}
+
 label{
     font-weight: bolder;
     font-size: larger;
