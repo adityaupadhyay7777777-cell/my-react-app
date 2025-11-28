@@ -1,6 +1,14 @@
 .text{
-    font-weight: 50px;
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-weight: 100px;
+    font-size:x-large;
+    font-size:50px;
+    margin: 8px;
+    color:rgb(164, 103, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(96, 59, 10);;
+
 }
 main{
     display: flex;
@@ -9,5 +17,13 @@ main{
 }
 .button{
     display: flex;
-    gap:5px;
+    gap:10px;
+    padding: 5px;
+    margin: 2px;
 }
+#button1,#button2{
+    color:rgb(182, 130, 232);
+    background-color: rgb(59, 10, 104);
+    padding: 5px 8px;
+}
+    

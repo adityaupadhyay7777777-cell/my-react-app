@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 6px;
+    gap: 10px;
+}
+#submit{
+    width: 100px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(18, 1, 1);
+    padding: 2px;
+}
+label{
+    font-weight: bolder;
+    font-size: larger;
+}
+input{
+    padding: 5px;
+}

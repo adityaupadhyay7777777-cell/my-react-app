@@ -4,11 +4,11 @@ import './navbar.css'
 function Navbar(props) {
   return (
     <div className='navbar'>
-      <div>{props.title}</div>
+      <div className='logo'>{props.title}</div>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        {props.lists.map((list, index)=>{
+          return <li key={index}>{list}</li>
+        })}
       </ul>
     </div>
   )
